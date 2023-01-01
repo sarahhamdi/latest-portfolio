@@ -1,0 +1,24 @@
+@media (max-width: 756px) {
+  .main {
+    padding: 0 6rem;
+    margin: 6rem auto 3rem auto;
+  }
+}
+
+@media (max-width: 636px) {
+  .main {
+    padding: 0 3rem;
+    margin: 3rem auto 3rem auto;
+  }
+  .h1--large {
+    font-size: calc(45 * 1px);
+    font-size: calc(4.5 * 1rem);
+  }
+}
+
+@media (max-width: 400px) {
+  .h2--large {
+    font-size: calc(21 * 1px);
+    font-size: calc(2.1 * 1rem);
+  }
+}

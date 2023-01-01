@@ -1,0 +1,115 @@
+/* FONTS */
+/* // @import url('https://fonts.googleapis.com/css?family=Muli:300,400,700'); */
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir-roman.ttf") format("truetype");
+  src: url("../assets/fonts/avenir-roman.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir-light.ttf") format("truetype");
+  src: url("../assets/fonts/avenir-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/fonts/avenir-heavy.ttc") format("truetype");
+  src: url("../assets/fonts/avenir-heavy.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* TYPOGRAPHY */
+
+::selection {
+  background: rgba(236, 184, 93, 0.15);
+  color: var(--color-barley);
+}
+
+body,
+p,
+li {
+  font-size: calc(18 * 1px);
+  font-size: calc(1.8 * 1rem);
+  color: var(--color-grey);
+  font-family: var(--font-family--body);
+  font-weight: var(--font-weight--light);
+  line-height: var(--base--line-height);
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-koromiko);
+  font-family: var(--font-family--header);
+  letter-spacing: 1px;
+}
+
+h1,
+h2 {
+  color: var(--color-barley);
+}
+
+a,
+a:visited {
+  color: var(--color-white);
+  font-weight: var(--font-weight--light);
+  border-bottom: 1px dashed var(--color-grey);
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: var(--color-grey);
+}
+
+.h1--large {
+  color: var(--color-barley);
+  font-size: calc(66 * 1px);
+  font-size: calc(6.6 * 1rem);
+  padding: 0;
+  margin: 0;
+  font-weight: var(--font-weight--bold);
+}
+
+.h1--small {
+  font-size: calc(18 * 1px);
+  font-size: calc(1.8 * 1rem);
+  padding: 0;
+  margin: 0 0 6rem;
+  text-transform: uppercase;
+  font-weight: var(--font-weight--light);
+}
+
+.h2--large {
+  font-size: calc(30 * 1px);
+  font-size: calc(3 * 1rem);
+  padding: 0;
+  margin: 0 0 6rem;
+  color: var(--color-koromiko);
+  font-weight: var(--font-weight--normal);
+}
+
+.p--subtitle {
+  font-size: calc(18 * 1px);
+  font-size: calc(1.8 * 1rem);
+  line-height: var(--base--line-height);
+  padding: 0;
+  margin: 0 0 3rem;
+  color: var(--color-grey);
+}
+
+.p--small {
+  font-size: calc(15 * 1px);
+  font-size: calc(1.5 * 1rem);
+  padding: 0;
+  margin: 0 0 1rem;
+}

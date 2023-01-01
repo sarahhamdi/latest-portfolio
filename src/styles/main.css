@@ -1,0 +1,45 @@
+/* CSS variables */
+
+:root {
+  /* animation / transitions */
+  --transition: all 0.5s;
+
+  /* colours */
+  --color-white: rgba(255, 255, 255, 1);
+  --color-grey: #adadad;
+  --color-black: #16101a;
+  --color-koromiko: rgba(251, 196, 99, 1);
+  --color-barley: #ffe1ae;
+
+  /* shadows */
+  --text-shadow: 3px 4px 7px 0px rgba(155, 155, 155, 0.39);
+  --box-shadow: 0 11px 16px 0 rgba(0, 0, 0, 0.4);
+
+  /* typography */
+  --font-family--header: "Avenir", "Muli", sans-serif;
+  --font-family--body: "Avenir", "Muli", sans-serif;
+  --base--line-height: 1.8;
+
+  /* font weights */
+  --font-weight--light: 300;
+  --font-weight--normal: 400;
+  --font-weight--bold: 700;
+
+  /* z=indexes - not used atm */
+  --zindex-minus1: -1000;
+  --zindex-plus1: 1000;
+  --zindex-plus2: 2000;
+  --zindex-plus3: 3000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  transition: var(--transition);
+}
